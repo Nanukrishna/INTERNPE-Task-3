@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #777777;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+            .header, .footer {
+                padding: 15px;
+            }
+            .content {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Your Company Name</h1>
+        <p>Catchy Tagline Here</p>
+    </div>
+    <div class="content">
+        <h2>Welcome to Our Newsletter!</h2>
+        <p>Hello [Subscriber's Name],</p>
+        <p>Thank you for subscribing to our newsletter! We’re excited to share our latest news and promotions with you.</p>
+
+        <h3>Latest Updates</h3>
+        <p>Here are some of the highlights:</p>
+        <ul>
+            <li>New product launch: [Product Name]</li>
+            <li>Exclusive offers for subscribers!</li>
+            <li>Upcoming events: [Event Details]</li>
+        </ul>
+
+        <h3>Follow Us</h3>
+        <p>Stay connected with us on our social media channels:</p>
+        <p>
+            <a href="[Facebook Link]">Facebook</a> |
+            <a href="[Twitter Link]">Twitter</a> |
+            <a href="[Instagram Link]">Instagram</a>
+        </p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p><a href="[Unsubscribe Link]">Unsubscribe</a> | <a href="[Privacy Policy Link]">Privacy Policy</a></p>
+    </div>
+</div>
+
+</body>
+</html>
